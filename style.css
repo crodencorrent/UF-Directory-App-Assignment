@@ -1,8 +1,42 @@
 #searchBar {
   margin: 15px 10px;
 }
-
+body{
+	background-color: lightblue;
+}
+h1{
+	color: black;
+	text-align:center;
+	font-weight:bold;
+}
 .tableWrapper {
   max-height: 400px;
   overflow: auto;
+}
+
+.jumbotron {
+	background-color: #F0A055;
+	position: relative;
+	top: 50px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+.table {
+	background-color: #F0A055;
+}
+tr {
+	background-color: #AAAAAA;
+}
+table, th, td, form {
+   border: 1px solid black;
+}
+th {
+	color:green;
+}
+tr:hover {color: green};
+
+form {
+	position:relative;
+	right: 150px;
 }
