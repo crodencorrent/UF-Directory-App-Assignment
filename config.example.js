@@ -4,7 +4,7 @@
 
 module.exports = {
   db: {
-    uri: '', //place the URI of your mongo database here.
+    uri: 'mongodb://spork_lift:<PASSWORD>@firstcluster-shard-00-00-oq7lf.mongodb.net:27017,firstcluster-shard-00-01-oq7lf.mongodb.net:27017,firstcluster-shard-00-02-oq7lf.mongodb.net:27017/test?ssl=true&replicaSet=FirstCluster-shard-0&authSource=admin', //place the URI of your mongo database here.
   }
 };
 

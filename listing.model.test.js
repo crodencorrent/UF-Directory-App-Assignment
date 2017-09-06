@@ -18,6 +18,7 @@ listing =  {
 describe('Listing Schema Unit Tests', function() {
 
   before(function(done) {
+    console.log(config.db.uri);
     mongoose.connect(config.db.uri);
     done();
   });
